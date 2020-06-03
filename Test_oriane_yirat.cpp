@@ -4,6 +4,7 @@
 
 #include "doctest.h"
 #include "DemoGame.hpp"
+// #include "FootSoldier.hpp"
 #include "FootSoldier.hpp"
 #include "FootCommander.hpp"
 #include "Sniper.hpp"

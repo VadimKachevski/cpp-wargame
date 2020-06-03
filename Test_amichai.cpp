@@ -5,6 +5,8 @@
 #include <iostream>
 #include <stdexcept>
 
+
+
 #include "DemoGame.hpp"
 #include "FootSoldier.hpp"
 #include "FootCommander.hpp"
@@ -17,6 +19,7 @@
 //check exceptions in diff cases
 
 TEST_CASE("Sniper VS Sniper") { //good
+    
     WarGame::Board board(8,8);
     CHECK(!board.has_soldiers(1));
     board[{0,1}] = new Sniper(1);
