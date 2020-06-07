@@ -13,3 +13,5 @@
 
 </div>
 </div>
+
+![alt text](https://github.com/VadimKachevski/cpp-wargame/blob/master/uml.png)
